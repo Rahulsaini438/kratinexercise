@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medication Reminder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Medication Reminder</h1>
+        <div id="medList">
+            <!-- Medication list will be populated here -->
+        </div>
+        <button id="addMedBtn">Add Medication</button>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add Medication</h2>
+            <input type="text" id="medName" placeholder="Medication Name">
+            <input type="time" id="medTime">
+            <button id="saveMedBtn">Save</button>
+        </div>
+    </div>
+<!-- second -->
+    <h1>Elderly-friendly Smartphone Interface</h1>
+    <div class="container">
+        <button class="button">Make Call</button>
+        <button class="button">Send Message</button>
+        <button class="button">View Photos</button>
+        <button class="button">Emergency Contacts</button>
+    </div>
+    <!-- third -->
+
+    <h1>Meal Planning & Recipe Management App</h1>
+    <div class="container">
+        <h2>Recipes for the Week</h2>
+        <div class="recipe-card">
+            <h3>Grilled Salmon with Asparagus</h3>
+            <p>Nutritional Info: Calories: 350, Protein: 30g, Fat: 15g, Carbs: 20g</p>
+            <button class="button">Add to Meal Plan</button>
+        </div>
+        <div class="recipe-card">
+            <h3>Veggie Stir-Fry with Tofu</h3>
+            <p>Nutritional Info: Calories: 300, Protein: 25g, Fat: 10g, Carbs: 35g</p>
+            <button class="button">Add to Meal Plan</button>
+        </div>
+        <!-- More recipe cards can be added dynamically -->
+        <button class="button">Generate Shopping List</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
